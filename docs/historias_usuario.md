@@ -2,8 +2,6 @@
 
 * Propietario: Alquila una o varias máquinas a terceros, y desconoce cuánto uso le dan ni qué tipo de uso le dan.
 
-# Hito 0 - Define el modelo del problema
-
 ## [HU001] Mantenimiento preventivo
 
 Como propietario de la máquina quiero que, dado una máquina con sensores y capacidad de conectarse a Internet,
