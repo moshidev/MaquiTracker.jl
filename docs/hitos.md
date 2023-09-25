@@ -11,3 +11,4 @@ Hito alcanzado en el momento en que tenemos un servicio software el cual
 nos permita, dado un contexto y un histórico de datos, analizar si una
 máquina está funcionando de forma incorrecta asi como pronosticar cuándo
 puede ser una buena fecha para realizar mantenimiento preventivo.
+Este servicio software está implementado aplicando TDD.
