@@ -1,12 +1,13 @@
 # Hito 0 - Define el modelo del problema
 
-Asociado a [HU001](historias_usuario.md#hu001-mantenimiento-preventivo)
-
-- [ ] Conocemos qué componentes de la máquina fallan y con qué frecuencia.
-- [ ] Para cada componente, si procede, conocemos los síntomas de que vaya a fallar.
-- [ ] Para cada componente, si procede, conocemos cómo detectamos que está fallando.
-- [ ] Conocemos sensores para los componentes que nos interesa monitorizar y su fiabilidad.
+Hito alcanzado en el momento en que describimos cómo podemos saber si una
+máquina está funcionando de una forma incorrecta, asi como el algoritmo
+que usaremos para estimar cuándo puede ser una buena fecha para realizar
+mantenimiento preventivo.
 
 # Hito 1 - Implementa la lógica de negocio
 
-[ Pendiente ]
+Hito alcanzado en el momento en que tenemos un servicio software el cual
+nos permita, dado un contexto y un histórico de datos, analizar si una
+máquina está funcionando de forma incorrecta asi como pronosticar cuándo
+puede ser una buena fecha para realizar mantenimiento preventivo.
