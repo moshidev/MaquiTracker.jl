@@ -2,7 +2,7 @@
 
 * Propietario: Alquila una o varias máquinas a terceros, y desconoce cuánto uso le dan ni qué tipo de uso le dan.
 
-# [HU001] Diagnóstico de fallo
+## [HU001] Diagnóstico de fallo
 
 Como propietario de la máquina, quiero que, dado una máquina con sensores y capacidad de conectarse a Internet,
 poder saber si una máquina está funcionando de forma incorrecta.
