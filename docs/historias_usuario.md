@@ -8,8 +8,7 @@
 Como propietario de la máquina, quiero que, dado una máquina con sensores
 y capacidad de conectarse a Internet,
 poder saber si una máquina está funcionando de forma incorrecta o se ha
-degradado su funcionamiento. También me ayudaría bastante poder registrar y
-consultar la antigüedad de la máquina.
+degradado su funcionamiento.
 
 Por experiencia, para los sensores que dispongo, sé que el sistema hidráulico
 de una máquina funciona mal cuando:
@@ -27,8 +26,7 @@ Como propietario de la máquina quiero que, dado una máquina con sensores
 y capacidad de conectarse a Internet,
 poder ubicar en el tiempo cuándo será una buena fecha para realizar
 mantenimiento preventivo, según el ritmo de uso pasado y las lecturas de sus
-sensores. Tal vez podría ayudar poder registrar y consultar la antigüedad de
-la máquina.
+sensores.
 
 Conozco:
 
@@ -37,3 +35,4 @@ Conozco:
 * la temperatura del aceite del circuito.
 * la presión del circuito.
 * la corriente consumida por cada una o dos electroválvulas.
+* la antiguedad de la máquina.
