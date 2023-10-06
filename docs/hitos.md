@@ -11,11 +11,12 @@ Hito alcanzado en el momento en que:
   si una máquina está funcionando de forma incorrecta. Será viable en el
   momento en que el propietario del repositorio de el visto bueno.
 
-# Hito 1 - Implementa la lógica de negocio
+# Hito 1 - Diagnóstico de fallo y estimación de días restantes para fallo
 
 Hito alcanzado en el momento en que:
 
-* tenemos una API en el lenguaje elegido.
+* tenemos una API en el lenguaje elegido para diagnosticar un fallo.
+* tenemos una API en el lenguaje elegido para estimar el número de días restantes para un fallo.
 * tenemos una serie de tests que declaren el correcto funcionamiento de la API.
 * tenemos una implementación de la API que pase todos los tests.
 
