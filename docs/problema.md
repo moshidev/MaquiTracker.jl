@@ -1,5 +1,8 @@
 # Preámbulo
-Existen distintos tipos de maquinaria agrícola para uso intensivo. Nuestra empresa, DigiControl Engineering S.L., ofrece soluciones para controlar electrónicamente estas máquinas. Entre estas destacan los vibradores de árboles y los atomizadores.
+Existen distintos tipos de maquinaria agrícola para uso intensivo. Nuestra
+empresa, DigiControl Engineering S.L., ofrece soluciones para controlar
+electrónicamente estas máquinas. Entre estas destacan los vibradores de
+árboles y los atomizadores.
 
 <div align="center">
   <table border="0">
@@ -12,15 +15,19 @@ Existen distintos tipos de maquinaria agrícola para uso intensivo. Nuestra empr
   </table>
 </div>
 
-Parte de nuestros clientes finales se dedican a alquilar maquinaria a terceros y a ofrecer servicios de mantenimiento y recolección.
-Actualmente pueden consultar las estadísticas de uso de la máquina, aunque únicamente presencialmente.
+Parte de nuestros clientes finales se dedican a alquilar maquinaria a terceros
+y a ofrecer servicios de mantenimiento y recolección.
+Actualmente pueden consultar las estadísticas de uso de la máquina, aunque
+únicamente presencialmente.
 
 # Descripción del problema
 Las campañas de recolección de aceituna duran muy poco tiempo, tienen que
 hacerse en las fechas adecuadas. Perder un día, incluso horas, en una campaña
 de recolección puede suponer unas pérdidas económicas muy grandes para ese año.
 
-Los clientes que poseen más de una máquina o aquellos que alquilan a terceros quieren conocer el estado y uso de sus máquina de la forma más frecuente posible, sin estar presentes.
+Los clientes que poseen más de una máquina o aquellos que alquilan a terceros
+quieren conocer el estado y uso de sus máquina de la forma más frecuente posible,
+sin estar presentes.
 
 Ocurre que hay una cantidad considerable de clientes que no se preocupan del
 mantenimiento de la maquinaria.
