@@ -23,9 +23,8 @@ de una máquina funciona mal cuando:
 ## [HU002] Mantenimiento preventivo
 
 Como propietario de la máquina quiero que, dado una máquina con sensores
-y capacidad de conectarse a Internet,
-poder ubicar en el tiempo cuándo será una buena fecha para realizar
-mantenimiento preventivo, según el ritmo de uso pasado y las lecturas de sus
+y capacidad de conectarse a Internet, poder estimar cuántos días faltan
+para que falle esta, según el ritmo de uso pasado y las lecturas de sus
 sensores.
 
 Conozco:
