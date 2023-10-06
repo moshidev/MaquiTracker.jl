@@ -16,14 +16,17 @@ Parte de nuestros clientes finales se dedican a alquilar maquinaria a terceros y
 Actualmente pueden consultar las estadísticas de uso de la máquina, aunque únicamente presencialmente.
 
 # Descripción del problema
+Las campañas de recolección de aceituna duran muy poco tiempo, tienen que
+hacerse en las fechas adecuadas. Perder un día, incluso horas, en una campaña
+de recolección puede suponer unas pérdidas económicas muy grandes para ese año.
+
 Los clientes que poseen más de una máquina o aquellos que alquilan a terceros quieren conocer el estado y uso de sus máquina de la forma más frecuente posible, sin estar presentes.
 
+Ocurre que hay una cantidad considerable de clientes que no se preocupan del
+mantenimiento de la maquinaria.
+
 Concretamente.
-* Quieren saber **cuánto** se ha utilizado la máquina, de forma que puedan realizar un **mantenimiento preventivo** eficiente.
-* Quieren conocer **dónde** se ha utilizado la máquina y la **forma** en que se ha tratado cada árbol.
-  - ¿Cuánto tiempo ha vibrado cada árbol? ¿Con qué presión en la pinza?
-  - ¿Cuántas veces que se ha llenado la tolva?
-  - ¿Cuánto líquido se ha pulverizado en cada árbol?
-* Quieren saber **cómo** se ha utilizado la máquina
-  - ¿El usuario ha realizado las pausas necesarias para el mantenimiento obligatorio de la máquina?
-  - ¿Cuál ha sido la temperatura de funcionamiento?
+* Quieren saber si la máquina está mostrando signos de degradación en su funcionamiento,
+  de forma que puedan realizar un **mantenimiento preventivo** eficiente.
+* Quieren saber si una máquina está funcionando de forma incorrecta, y si el cliente la
+  está utilizando aun cuando tenemos esta condición de error.
