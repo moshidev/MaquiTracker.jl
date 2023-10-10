@@ -1,11 +1,8 @@
-# Personas
-
-* Propietario: Alquila una o varias máquinas a terceros, y desconoce
-  cuánto uso le dan ni qué tipo de uso le dan.
+# Historias de usuario
 
 ## [HU001] Diagnóstico de fallo
 
-Como propietario de la máquina, quiero que, dado una máquina con sensores
+Como Peluso, quiero que, dado una máquina con sensores
 y capacidad de conectarse a Internet,
 poder saber si una máquina está funcionando de forma incorrecta o se ha
 degradado su funcionamiento.
@@ -22,7 +19,7 @@ de una máquina funciona mal cuando:
 
 ## [HU002] Mantenimiento preventivo
 
-Como propietario de la máquina quiero que, dado una máquina con sensores
+Como Peluso quiero que, dado una máquina con sensores
 y capacidad de conectarse a Internet, poder estimar cuántos días faltan
 para que falle esta, según el ritmo de uso pasado y las lecturas de sus
 sensores.
