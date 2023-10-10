@@ -43,6 +43,9 @@ Si la presión del circuito sobrepasa este valor determinado significa
 que ha fallado alguna parte del sistema y potencialmente puede hacer romper a
 la bomba de aceite. A mayor presión, más inmediatas son las consecuencias.
 
+Si la media de la presión del circuito empieza a ser inferior de la que se ha solido
+tener significa que potencialmente a bomba está empezando a fallar.
+
 # Electroválvulas (EVs)
 
 Una electroválvula es un dispositivo que, al aplicarle un voltaje, levanta
