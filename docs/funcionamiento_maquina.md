@@ -36,12 +36,24 @@ fuerza de los movimientos es menor.
 La presión de un circuito no puede sobrepasar un valor determinado
 (normalmente 180bar, dependerá en la instalación). Sin embargo, a veces sí que
 lo puede hacer. Existe una propiedad de estos sistemas llamada golpe de ariete.
-Esto es que al cambiar de sentido la presión puede dar un pico de presión.
+Esto es que al cambiar de sentido la presión puede dar un pico de presión durante
+un instante de tiempo.
 
 Si la presión del circuito sobrepasa este valor determinado significa
 que ha fallado alguna parte del sistema y potencialmente puede hacer romper a
 la bomba de aceite. A mayor presión, más inmediatas son las consecuencias.
 
-# Electroválvulas
+# Electroválvulas (EVs)
 
-[ Pendiente ]
+Una electroválvula es un dispositivo que, al aplicarle un voltaje, levanta
+un émbolo para permitir el paso de líquido a través de ella por medio de la
+acción de un campo electromagnético. A mayor temperatura mayor resistencia
+de la bobina, y a mayor resistencia de la bobina más consume. Al estar en
+contacto con el aceite existe correlación entre el consumo de una EV y la
+temperatura del aceite.
+
+A veces pasa que se quema el barniz protector de la electroválvula. Cuando
+esto ocurre, progresivamente y de una forma alargada en el tiempo, la EV
+va consumiendo más con respecto a la temperatura del aceite. Según consume
+más, más quema el barniz. Esto puede terminar en consumos excesivos y, en
+el peor de los casos, una bobina quemada.
