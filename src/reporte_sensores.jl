@@ -1,8 +1,8 @@
 
-# Struct EstructuraDatosTiempoReal
+# Struct ReporteSensores
 # Objeto Valor donde guardamos los reportes de los sensores
 
-mutable struct EstructuraDatosTiempoReal
+mutable struct ReporteSensores
 
     usos::Int64
     tiempoFuncionamiento::Float32
