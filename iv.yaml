@@ -1,2 +1,2 @@
 lenguaje: Julia
-entidad:
+entidad: src/maquina.jl
