@@ -2,7 +2,7 @@
 # Struct ReporteSensores
 # Objeto Valor donde guardamos los reportes de los sensores
 
-mutable struct ReporteSensores
+struct ReporteSensores
 
     usos::Int64
     tiempoFuncionamiento::Float32
