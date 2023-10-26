@@ -1,12 +1,12 @@
 
-include("datos_tiempo_real.jl")
+include("reporte_sensores.jl")
 
 # Struct Maquina
 # Entidad
 
 mutable struct Maquina
 
-    datosTiempoReal::Vector{EstructuraDatosTiempoReal}
+    datosTiempoReal::Vector{ReporteSensores}
     problema::Vector{String}
     estado::Int64
 
