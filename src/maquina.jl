@@ -8,6 +8,6 @@ mutable struct Maquina
 
     datosTiempoReal::Vector{ReporteSensores}
     problema::Vector{String}
-    estado::Int64
+    estado::UInt64
 
 end

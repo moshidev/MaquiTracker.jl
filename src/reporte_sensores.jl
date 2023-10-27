@@ -4,7 +4,7 @@
 
 struct ReporteSensores
 
-    usos::Int64
+    usos::UInt64
     tiempoFuncionamiento::Float32
     aceite::Float32
     presion::Float32
