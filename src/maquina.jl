@@ -20,21 +20,4 @@ mutable struct Maquina
     mediaPresion::Float32
     mediaEV::Float32
 
-    # funcion para crear la interpolación de la series que queramos
-
-    function create_interpolations(puntos, tipo)
-
-        #interpolación lineal
-        if tipo == 1
-            return interpolate(puntos, Gridded(Linear()))
-        
-        #interpolación cuadrática
-        elseif tipo == 2
-            return interpolate(puntos, Gridded(Quadratic()))
-
-        else
-            println("Opción no válida")
-        end
-    end
-
 end
