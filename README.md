@@ -1,4 +1,9 @@
 # MaquiTracker
+
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://charfield.github.io/MaquiTracker.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://charfield.github.io/MaquiTracker.jl/dev/)
+[![Build Status](https://github.com/charfield/MaquiTracker.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/charfield/MaquiTracker.jl/actions/workflows/CI.yml?query=branch%3Amain)
+
 Servicio de localización, estadística y mantenimiento predictivo para maquinaria agrícola.
 
 * Software Libre: GNU GPL v3

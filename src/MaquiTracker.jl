@@ -1,8 +1,7 @@
-# Struct Maquina
-# Entidad
-
 include("medias.jl")
 
+# Struct Maquina
+# Entidad
 mutable struct Maquina
 
     # Variables para representar los fallos que se detecten
@@ -13,7 +12,6 @@ mutable struct Maquina
 end
 
 # Variables para definir los intervalos de funcionamiento correcto
-
 const maxPresion = 180
 const minTemAceite = 40
 const temAceiteAlta = 70
