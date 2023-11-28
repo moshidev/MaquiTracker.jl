@@ -1,3 +1,4 @@
+using MaquiTracker
 using Test
 
 @testset "Prueba" begin

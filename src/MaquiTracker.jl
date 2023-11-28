@@ -1,18 +1,27 @@
-include("medias.jl")
+module MaquiTracker
 
-# Struct Maquina
-# Entidad
-mutable struct Maquina
+    struct Medias
+        # Variables necesarias para poder realizar la deteccion de problemas de la máquina
+        mediaTemperatura::Float32
+        mediaPresion::Float32
+        mediaEV::Float32
+    end
 
-    # Variables para representar los fallos que se detecten
+    # Struct Maquina
+    # Entidad
+    mutable struct Maquina
 
-    problema::String
-    medias::Medias
+        # Variables para representar los fallos que se detecten
+
+        problema::String
+        medias::Medias
+
+    end
+
+    # Variables para definir los intervalos de funcionamiento correcto
+    const maxPresion = 180
+    const minTemAceite = 40
+    const temAceiteAlta = 70
+    const temAceitePeligrosa = 90
 
 end
-
-# Variables para definir los intervalos de funcionamiento correcto
-const maxPresion = 180
-const minTemAceite = 40
-const temAceiteAlta = 70
-const temAceitePeligrosa = 90
