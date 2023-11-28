@@ -3,6 +3,8 @@ uuid = "134b6fcf-ba1f-410c-8d54-0e9b83ab16ce"
 authors = ["charfield"]
 version = "1.0.0-DEV"
 
+[deps]
+
 [compat]
 julia = "1.9"
 
