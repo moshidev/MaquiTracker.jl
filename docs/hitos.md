@@ -8,8 +8,9 @@ Hito alcanzado en el momento en que:
   cliente de el visto bueno.
 * definimos en el lenguaje de programación escogido las estructuras de datos
   necesarias para poder aplicar un algoritmo cualquiera que nos permita conocer
-  si una máquina está funcionando de forma incorrecta. Será viable en el
-  momento en que el propietario del repositorio de el visto bueno.
+  si una máquina está funcionando de forma incorrecta.
+
+Será viable en el momento en que el propietario del repositorio de el visto bueno.
 
 # Hito 1 - Diagnóstico de fallo y estimación de días restantes para fallo
 
@@ -17,8 +18,11 @@ Hito alcanzado en el momento en que:
 
 * tenemos una API en el lenguaje elegido para diagnosticar un fallo.
 * tenemos una API en el lenguaje elegido para estimar el número de días restantes para un fallo.
-* tenemos una serie de tests que declaren el correcto funcionamiento de la API.
+* tenemos una serie de tests que declaren el correcto funcionamiento de la API, así como una herramienta que automatice la ejecución.
 * tenemos una implementación de la API que pase todos los tests.
+* tenemos herramientas para gestionar las dependencias.
+* tenemos herramientas para automatizar la ejecución de tareas.
 
 Será viable en el momento en que el propietario del repositorio de el visto
 bueno.
+
