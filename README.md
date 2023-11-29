@@ -1,9 +1,5 @@
 # MaquiTracker
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://charfield.github.io/MaquiTracker.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://charfield.github.io/MaquiTracker.jl/dev/)
-[![Build Status](https://github.com/charfield/MaquiTracker.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/charfield/MaquiTracker.jl/actions/workflows/CI.yml?query=branch%3Amain)
-
 Servicio de localización, estadística y mantenimiento predictivo para maquinaria agrícola.
 
 * Software Libre: GNU GPL v3
@@ -13,3 +9,10 @@ Servicio de localización, estadística y mantenimiento predictivo para maquinar
 * Historias de usuario: [docs/historias_usuario.md](docs/historias_usuario.md)
 * Personas: [docs/personas.md](docs/personas.md)
 * Hitos: [docs/hitos.md](docs/hitos.md)
+
+# Primeros pasos
+
+Si quieres precompilar el proyecto para poder identificar algunos fallos en la sintaxis
+puedes ejecutar `julia make.jl check`.
+
+Si quieres ejecutar los tests puedes ejecutar `julia make.jl test`
