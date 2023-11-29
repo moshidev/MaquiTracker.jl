@@ -1,11 +1,13 @@
 using Pkg
 
-if ARGS[1] == "check"
-    # BEGIN: Precompilation
+function check()
     Pkg.activate(".")
     Pkg.instantiate()
     Pkg.precompile()
+end
 
+if ARGS[1] == "check"
+    check()
     println("check OK!")
 end
 
