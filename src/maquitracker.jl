@@ -1,4 +1,4 @@
-module MaquiTracker
+module maquitracker
 
     struct Medias
         # Variables necesarias para poder realizar la deteccion de problemas de la máquina
