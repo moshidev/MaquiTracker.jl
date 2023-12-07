@@ -2,4 +2,4 @@ lenguaje: Julia
 entidad: src/MaquiTracker.jl
 automatizar:
   fichero: Project.toml
-  orden: julia make.jl check
+  orden: julia make.jl
