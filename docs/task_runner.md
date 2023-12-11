@@ -1,13 +1,30 @@
 # Elección
 
+Tenemos distintas posibilidades. Por ejemplo:
+
+* `make`. Permite establecer reglas del estilo `objetivo: dependencias`. Cada
+línea del script de cada regla que componga un *Makefile* se ejecuta como si
+fuese una nueva CLI UNIX Shell. Por defecto, las reglas se ejecutan cuando
+no se pueda asegurar que las dependencias siguen en el mismo estado.
+
+* `rake`. Aunque está escrito en Ruby, es un *task runner* de propósito general
+parecido a `make`.
+
+No hay alternativa específica para Julia excepto la que propone el lenguaje.
+
 Dadas las necesidades del proyecto actuales y potencialmente futuras dado el
-itinerario de la asignatura entendemos que el mejor *task runner* que podemos
-utilizar es el propio lenguaje de programación, por distintas razones.
+itinerario de la asignatura entendemos que uno de los *task runner*
+más apropiados que podemos utilizar es el propio lenguaje de programación,
+por distintas razones.
 
 * Es idiomático. Nuevos contribuidores intuirían fácilmente dónde encontrar
 los servicios, cómo mantenerlos, y cómo funcionan.
 * Resulta en un repositorio consistente, manteniendo el mismo lenguaje en todo
 el proyecto.
+* Resuelve automáticamente las dependencias y cómo debe compilar el proyecto.
+* Tiene herramientas para crear y publicar un paquete en Julia.
+* Tiene herramientas y paquetes para desplegar un servicio accesible a través de
+la red.
 * Ofrece una amplia funcionalidad, abstraída mediante una API intuitiva.
 
 # Razones de la elección
