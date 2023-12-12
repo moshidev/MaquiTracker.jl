@@ -1,4 +1,5 @@
 # MaquiTracker
+
 Servicio de localización, estadística y mantenimiento predictivo para maquinaria agrícola.
 
 * Software Libre: GNU GPL v3
@@ -8,3 +9,10 @@ Servicio de localización, estadística y mantenimiento predictivo para maquinar
 * Historias de usuario: [docs/historias_usuario.md](docs/historias_usuario.md)
 * Personas: [docs/personas.md](docs/personas.md)
 * Hitos: [docs/hitos.md](docs/hitos.md)
+
+# Primeros pasos
+
+Si quieres precompilar el proyecto para poder identificar algunos fallos en la sintaxis
+puedes ejecutar `julia make.jl check`.
+
+Si quieres ejecutar los tests puedes ejecutar `julia make.jl test`

@@ -1,2 +1,5 @@
 lenguaje: Julia
-entidad: src/maquina.jl
+entidad: src/maquitracker.jl
+automatizar:
+  fichero: Project.toml
+  orden: julia make.jl
