@@ -1,4 +1,6 @@
 module maquitracker
+    using Statistics
+    export EV_es_defectuosa
 
     struct Medias
         # Variables necesarias para poder realizar la deteccion de problemas de la máquina
@@ -24,4 +26,12 @@ module maquitracker
     const temAceiteAlta = 70
     const temAceitePeligrosa = 90
 
+    function EV_es_defectuosa(c::Vector{Float64}, t::Vector{Float64})
+        if length(c) != length(t)
+            throw(DimensionMismatch("Los vectores c y t deben tener la misma longitud"))
+        end
+        
+        factor = c ./ t
+        return std(factor)*100 >= 0.05
+    end
 end
