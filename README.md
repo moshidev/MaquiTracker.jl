@@ -9,6 +9,7 @@ Servicio de localización, estadística y mantenimiento predictivo para maquinar
 * Historias de usuario: [docs/historias_usuario.md](docs/historias_usuario.md)
 * Personas: [docs/personas.md](docs/personas.md)
 * Hitos: [docs/hitos.md](docs/hitos.md)
+* Tests: [docs/tests.md](docs/tests.md)
 
 # Primeros pasos
 

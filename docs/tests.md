@@ -62,3 +62,5 @@ Al estar trabajando sobre tests unitarios, aplicamos los siguientes criterios.
     *Sin embargo, estamos limitados a los casos que se nos ocurran. Si lo necesitásemos,
     podríamos considerar utilizar otras técnicas de testeo, como el fuzzing, para mejorar
     este aspecto.*
+    - *En el caso de nuestro projecto, al ser un lenguaje interpretado con una comprobación
+    de tipos y nombres pobre en etapa de pre-compilación, practicamos programación defensiva*.
