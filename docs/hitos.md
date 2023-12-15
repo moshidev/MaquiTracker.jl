@@ -16,9 +16,10 @@ Será viable en el momento en que el propietario del repositorio de el visto bue
 
 Hito alcanzado en el momento en que:
 
-tenemos herramientas para gestionar las dependencias.
-tenemos herramientas para automatizar la ejecución de tareas.
-tenemos documentación que justifique la elección de nuestras herramientas.
+* tenemos herramientas para gestionar las dependencias.
+* tenemos herramientas para automatizar la ejecución de tareas.
+* tenemos documentación que justifique la elección de nuestras herramientas.
+
 Será viable en el momento en que el propietario del repositorio de el visto
 bueno.
 
