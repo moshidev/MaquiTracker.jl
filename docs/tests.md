@@ -45,7 +45,6 @@ hacer pruebas de hipótesis estadística.
 * [Jive](https://github.com/wookay/Jive.jl) Macros que pueden ayudar a depurar código.
 * [ReferenceTests](https://github.com/JuliaTesting/ReferenceTests.jl) Macros que facilitan el
 ejecutar pruebas que dependen en ficheros de referencia.
-* [JuliaFormatter](https://github.com/domluna/JuliaFormatter.jl) Linter.
 
 ## Selección
 
@@ -61,14 +60,9 @@ han fallado los tests.
 aunque algunos de los macros son para implementar anti-patrones.
 * ReferenceTests será útil en el momento en que tengamos los datos con los que haremos los tests
 en ficheros, o queramos crear estos.
-* JuliaFormatter nos puede ayudar para ejecutar la tarea `check`, y para formatear nuestro código
-de manera uniforme.
 
 TestTools es incompatible con TestItemRunner. Este último nos ofrece más posibilidades y no es
 limitante al contrario del primero.
-
-Utilizamos JuliaFormatter para mejorar las capacidades de análisis estático de nuestra
-tarea `check`.
 
 A no ser que nos sintamos limitados, no utilizamos complementos a la biblioteca de aserciones.
 
