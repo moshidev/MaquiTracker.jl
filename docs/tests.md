@@ -11,11 +11,44 @@ Estos son los criterios para la complejidad del proyecto presente y potencialmen
 
 Julia incluye una suborden que nos permite ejecutar una serie de tests.
 
-No encontramos alternativas para el lenguaje.
-
 En la [documentación de Julia](https://docs.julialang.org/en/v1/stdlib/Test/)
 se pueden consultar las distintas aserciones que tenemos disponibles, así como 
 cómo declarar sets de tests y ejecutarlos mediante la línea de comandos.
+
+Por norma general más que alternativas existen utilidades que complementan a este
+paquete, algunas incompatibles entre sí.
+
+## Complementos existentes destacables
+
+En [JuliaHub](https://juliahub.com/ui/Search?q=test&type=packages):
+
+* [TestTools](https://juliahub.com/ui/Packages/General/TestTools) Instala un ejecutable
+en nuestra instalación de Julia que nos permite ejecutar los tests directamente desde
+la línea de comandos, así como comprobar su cobertura o si el código tiene errores de estilo.
+* [TestEnv](https://juliahub.com/ui/Packages/General/TestEnv) Utilidad que nos permite crear
+un entorno de desarrollo temporal mediante el REPL para poder ejecutar el entorno de testeo
+de un paquete cualquiera.
+* [TestItemRunner](https://juliahub.com/ui/Packages/General/TestItemRunner) Permite escribir
+tests unitarios dentro del propio código del paquete. Necesita ser una dependencia del
+paquete. Permite asignarle una etiqueta al test. Permite opcionalmente deshabilitar las
+dependencias del fichero para utilizar unas locales al test. TestTools no soporta ejecutar
+este tipo de tests.
+* [TestingUtilities](https://juliahub.com/ui/Packages/General/TestingUtilities) Conjunto de
+macros que muestran información adicional acerca de por qué ha fallado un test, como en qué
+difieren las variables que no eran iguales a las que se esperaban. También permite declarar
+tests que aplican la misma lógica a distintos valores de entrada.
+
+En [Github](https://github.com/search?q=test+language%3AJulia+&type=repositories):
+
+* [HypothesisTests](https://github.com/JuliaStats/HypothesisTests.jl) Paquete que permite
+hacer pruebas de hipótesis estadística. 
+* [Jive](https://github.com/wookay/Jive.jl) Macros que pueden ayudar a depurar código.
+* [ReferenceTests](https://github.com/JuliaTesting/ReferenceTests.jl) Macros que facilitan el
+ejecutar pruebas que dependen en ficheros de referencia.
+
+## Selección
+
+[[Pendiente]]
 
 # Proceso de desarrollo de tests
 
