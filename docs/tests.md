@@ -18,7 +18,7 @@ cómo declarar sets de tests y ejecutarlos mediante la línea de comandos.
 Por norma general más que alternativas existen utilidades que complementan a este
 paquete, algunas incompatibles entre sí.
 
-## Complementos existentes destacables
+## Complementos destacables
 
 En [JuliaHub](https://juliahub.com/ui/Search?q=test&type=packages):
 
@@ -45,10 +45,34 @@ hacer pruebas de hipótesis estadística.
 * [Jive](https://github.com/wookay/Jive.jl) Macros que pueden ayudar a depurar código.
 * [ReferenceTests](https://github.com/JuliaTesting/ReferenceTests.jl) Macros que facilitan el
 ejecutar pruebas que dependen en ficheros de referencia.
+* [JuliaFormatter](https://github.com/domluna/JuliaFormatter.jl) Linter.
 
 ## Selección
 
-[[Pendiente]]
+* TestTools podría poder ahorrarnos el fichero `make.jl`, o parte de este, pero no nos permite
+personalizar el framework de tests a utilizar, sólo es un wrapper para tres tipos de *tests runners*.
+* TestEnv nos podría ser util si queremos utilizar dependencias de testeo mediante el REPL.
+* TestItemRunner nos permitiría definir tests unitarios que podríamos clasificar y que realmente
+podríamos ejecutar de forma independiente de una forma más sencilla que la "oficial".
+* TestingUtilities podría ser util si estimamos que necesitamos más información acerca de por qué
+han fallado los tests.
+* HypothesisTests no son herramientas para testar código en sí, ni para ejecutar tests, pero nos puede ser útil si necesitamos aplicar tests estadísticos sobre conjuntos de datos.
+* Jive Podría ser útil si tuviésemos ciertas dependencias externas sobre los tests complejas,
+aunque algunos de los macros son para implementar anti-patrones.
+* ReferenceTests será útil en el momento en que tengamos los datos con los que haremos los tests
+en ficheros, o queramos crear estos.
+* JuliaFormatter nos puede ayudar para ejecutar la tarea `check`, y para formatear nuestro código
+de manera uniforme.
+
+TestTools es incompatible con TestItemRunner. Este último nos ofrece más posibilidades y no es
+limitante al contrario del primero.
+
+Utilizamos JuliaFormatter para mejorar las capacidades de análisis estático de nuestra
+tarea `check`.
+
+A no ser que nos sintamos limitados, no utilizamos complementos a la biblioteca de aserciones.
+
+A no ser que nos sintamos limitados, no utilizamos complementos al *test runner*.
 
 # Proceso de desarrollo de tests
 
