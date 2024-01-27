@@ -15,3 +15,9 @@ if ARGS[1] == "test"
     Pkg.activate(".")
     Pkg.test()
 end
+
+if ARGS[1] == "format"
+    using JuliaFormatter
+    format("./test")
+    format("./src")
+end
