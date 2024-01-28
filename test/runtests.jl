@@ -1,7 +1,4 @@
-using maquitracker
 using Test
 
-@testset "Prueba" begin
-    # Write your tests here.
-    @test 2+2 == 4
-end
+include("test_EV_es_defectuosa.jl")
+include("test_presion_ok.jl")

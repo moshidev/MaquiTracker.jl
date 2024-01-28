@@ -1,5 +1,6 @@
 lenguaje: Julia
 entidad: src/maquitracker.jl
+test: test/runtests.jl
 automatizar:
   fichero: Project.toml
   orden: julia make.jl
