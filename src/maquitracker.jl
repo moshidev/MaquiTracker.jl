@@ -1,9 +1,11 @@
 module maquitracker
 using Statistics
 export EV_es_defectuosa
+export presion_ok
 
 # Variables para definir los intervalos de funcionamiento correcto
 const maxPresion = 180
+const maxTiempoPresion = 0.1
 const minTemAceite = 40
 const temAceiteAlta = 70
 const temAceitePeligrosa = 90
@@ -49,5 +51,23 @@ function EV_es_defectuosa(c::Vector{Float64}, t::Vector{Float64})
     pendiente = mean(dfactor ./ dx)
     relativo = (pendiente / mean(factor)) * 100
     return relativo >= 0.05
+end
+
+function presion_ok(p::Vector{Float64}, t::Vector{Float64})
+    if length(p) != length(t)
+        throw(DimensionMismatch("Los vectores p y t deben tener la misma longitud"))
+    end
+
+    if length(p) == 0 || length(t) == 0
+        throw(ArgumentError("Los vectores p y t no deben tener longitud 0"))
+    end
+
+    for i = 1:length(t)
+        if t[i] >= maxTiempoPresion && p[i] > maxPresion
+            return false
+        end
+    end
+
+    return true
 end
 end
